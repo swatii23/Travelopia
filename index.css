@@ -65,4 +65,22 @@ footer {
     background-color: grey;
 
 }
+@media (max-width: 768px) {
+    header {
+        font-size: 16px; 
+    }
 
+    #overlay-title {
+        font-size: 18px; 
+    }
+}
+
+@media (max-width: 480px) {
+    header {
+        font-size: 14px; 
+    }
+
+    #overlay-title {
+        font-size: 16px; 
+    }
+}
