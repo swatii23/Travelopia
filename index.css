@@ -44,7 +44,7 @@ header {
     justify-content: center;
     text-align: center;
     opacity: 0;
-    transition: background-color 0.3s ease, opacity 0.3s ease;
+    transition: background-color 0.5s ease, opacity 0.5s ease;
 }
 
 .image-overlay:hover {
@@ -71,20 +71,21 @@ footer {
 }
 @media (max-width: 768px) {
     header {
-        font-size: 16px; 
+        font-size: 1em; /* 16px */
     }
 
     #overlay-title {
-        font-size: 18px; 
+        font-size: 1.125em; /* 18px */
     }
 }
 
 @media (max-width: 480px) {
     header {
-        font-size: 14px; 
+        font-size: 0.875em; /* 14px */
     }
 
     #overlay-title {
-        font-size: 16px; 
+        font-size: 1em;
     }
 }
+
