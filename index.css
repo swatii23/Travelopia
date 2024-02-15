@@ -53,9 +53,10 @@ header {
 }
 
 #overlay-title {
-    color: #fff; 
-    margin-bottom: 10px;
+    color: #fff;
+    margin-bottom: 1em;
 }
+
 .overlay-button:hover {
     background-color: rgb(25, 118, 189);
 }
