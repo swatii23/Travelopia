@@ -56,6 +56,10 @@ header {
     color: #fff; 
     margin-bottom: 10px;
 }
+.overlay-button:hover {
+    background-color: rgb(25, 118, 189);
+}
+
 button{
     cursor: pointer;
 }
