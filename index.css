@@ -90,3 +90,18 @@ footer {
     }
 }
 
+.header-content {
+    max-width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    color: white;
+}
+
